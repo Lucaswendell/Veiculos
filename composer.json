@@ -1,0 +1,18 @@
+{
+    "name": "lucaswendell/crud_carros",
+    "description": "CRUD para cadastro de carros",
+    "require": {
+        "php": "^7.2",
+        "coffeecode/router": "^1.0",
+        "league/plates": "v4.0.0-alpha"
+    },
+    "autoload": {
+        "psr-4" : {
+			"Source\\" : "source/"
+		},
+        "files": [
+            "source/config/Config.php",
+            "source/config/Helper.php"
+        ]
+    }
+}

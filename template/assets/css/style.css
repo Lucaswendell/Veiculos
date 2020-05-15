@@ -1,0 +1,154 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100%;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 1em;
+  width: 100%;
+  height: 100%;
+}
+
+.list a {
+  color: #fff;
+}
+
+.list-pesquisa,
+.form-inline {
+  justify-content: end;
+  margin: 1em;
+}
+
+.form-inline input + label {
+  margin-right: 1em;
+}
+
+.btn-pesquisar {
+  color: #fff;
+  background-color: #f728c3;
+  border-color: #f728c3;
+  margin-left: 0.4em;
+  margin-right: 0.2em;
+}
+
+.btn-resetar {
+  display: none;
+  margin-right: 0.5em;
+}
+
+.btn-resetar:hover {
+  text-decoration: none;
+}
+
+.table-link:hover {
+  text-decoration: none;
+}
+
+.list-text {
+  color: #225;
+  font-size: 2em;
+}
+
+.form-required {
+  color: #f25;
+  font-size: 1.25em;
+}
+
+.table {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.form label {
+  margin-top: 1em;
+}
+
+.main form{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.main {
+  width: 70%;
+  margin-top: 2em;
+  margin: 0 auto;
+}
+
+.btn-form {
+  margin-top: 1em;
+  float: right;
+}
+
+.text-muted {
+  color: #f25 !important;
+}
+
+@media screen and (max-width: 1041px) {
+  .list-pesquisa,
+  .form-inline {
+    margin: 0;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .main form{
+    width: 100%;
+    margin: 0 auto;
+  }
+  .btn-pesquisar {
+    margin-left: 0.4em;
+    margin-right: 0.2em;
+  }
+}
+@media screen and (max-width: 983px) {
+  .btn-adicionar {
+    margin-top: 1em;
+    margin-right: 0.2em;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .btn-pesquisar {
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .btn-pesquisar {
+    margin-top: 1em;
+  }
+}
+@media screen and (max-width: 599px) {
+  .btn-pesquisar {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .list-pesquisa,
+  .form-inline {
+    display: inline-block;
+  }
+  .list-pesquisa > input {
+    margin-left: 0em;
+  }
+
+  .list-pesquisa > input + label {
+    margin-left: 1.5em;
+  }
+
+  .btn-pesquisar {
+    margin-left: 0;
+  }
+
+  .btn-pesquisar,
+  .btn-adicionar {
+    margin-top: 0.4em;
+  }
+}
