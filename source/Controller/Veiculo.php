@@ -77,7 +77,6 @@ class Veiculo extends Controller
 
     public function adicionar(array $data): void
     {
-        ("Content-type: text/json");
 
         $veiculo = new VeiculoDao();
         $veiculoModel = new VeiculoModel();
